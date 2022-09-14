@@ -23,7 +23,7 @@ Par exemple, la liste [1, 4, -2, 10] donne une moyenne de 5.
 ## 5. Formater dans une base numérique donnée
 
 Écrire un algorithme qui permet de formater un nombre donné dans une base donné en utilisant une séquence de lettres données pour représenter les chiffres. Par exemple, formater 123 en base 16 nous donne 7B, et il faut donc fournir les chiffres hexadécimaux, donc 0123456789ABCDEF.
-
+## lettres parce que si la base excède 10, les nombres ne sont pas suffisants.
 Exemple d'utilisation : 
 ```python
   print(format_base(123, 10, "0123456789"))
